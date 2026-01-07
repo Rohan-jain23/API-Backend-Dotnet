@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "physicalAssetsUpdateAnilox": {
+      "updatedAniloxPhysicalAsset": null,
+      "errors": [
+        {
+          "__typename": "ParameterInvalidError",
+          "message": "Serial number already exists on other asset"
+        }
+      ]
+    }
+  }
+}

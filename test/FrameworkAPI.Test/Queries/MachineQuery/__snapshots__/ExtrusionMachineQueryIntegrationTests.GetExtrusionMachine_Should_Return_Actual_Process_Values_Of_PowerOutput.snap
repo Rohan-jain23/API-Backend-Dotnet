@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "powerOutput": {
+          "lastValue": 460,
+          "unit": "mw"
+        }
+      }
+    }
+  }
+}

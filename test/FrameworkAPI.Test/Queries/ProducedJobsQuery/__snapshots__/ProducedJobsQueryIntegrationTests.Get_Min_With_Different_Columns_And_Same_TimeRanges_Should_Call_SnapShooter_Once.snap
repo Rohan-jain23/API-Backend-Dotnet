@@ -1,0 +1,18 @@
+{
+  "data": {
+    "producedJobs": {
+      "items": [
+        {
+          "jobSize": {
+            "minValue": 1111.1
+          },
+          "machineSettings": {
+            "thickness": {
+              "minValue": 2222.2
+            }
+          }
+        }
+      ]
+    }
+  }
+}

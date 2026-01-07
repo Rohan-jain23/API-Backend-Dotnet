@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "goodWeight": {
+        "value": 5166,
+        "unit": "kg"
+      },
+      "goodLength": {
+        "value": 234,
+        "unit": "m"
+      }
+    }
+  }
+}

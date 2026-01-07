@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "physicalAssetsUpdateAnilox": {
+      "updatedAniloxPhysicalAsset": null,
+      "errors": [
+        {
+          "__typename": "ParameterInvalidError",
+          "message": "Does not exist"
+        }
+      ]
+    }
+  }
+}

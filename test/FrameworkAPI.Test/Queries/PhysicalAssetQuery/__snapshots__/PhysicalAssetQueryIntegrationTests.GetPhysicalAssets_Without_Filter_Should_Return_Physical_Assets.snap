@@ -1,0 +1,47 @@
+﻿{
+  "data": {
+    "physicalAssets": [
+      {
+        "physicalAssetId": "AniloxPhysicalAssetDto #1",
+        "physicalAssetType": "ANILOX",
+        "serialNumber": "9876543210",
+        "scanCodes": [
+          "123456789",
+          "987654321"
+        ],
+        "usageCounter": {
+          "current": 0,
+          "atLastCleaning": null,
+          "unit": "mm"
+        },
+        "timeUsageCounter": {
+          "current": 0,
+          "atLastCleaning": null,
+          "unit": "ms"
+        },
+        "equippedBy": {
+          "equipmentType": "MACHINE",
+          "equipmentId": "EQ12345",
+          "description": null
+        }
+      },
+      {
+        "physicalAssetId": "PlatePhysicalAssetDto #1",
+        "physicalAssetType": "PLATE",
+        "serialNumber": "9876543210",
+        "scanCodes": [],
+        "usageCounter": {
+          "current": 0,
+          "atLastCleaning": null,
+          "unit": "mm"
+        },
+        "timeUsageCounter": {
+          "current": 0,
+          "atLastCleaning": null,
+          "unit": "ms"
+        },
+        "equippedBy": null
+      }
+    ]
+  }
+}

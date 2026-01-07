@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "physicalAssetCapabilityTestSpecifications": [
+      {
+        "capabilityTestType": "VOLUME",
+        "capabilityTestSpecificationId": "VolumeCapabilityTestSpecificationDto #1",
+        "version": 1
+      },
+      {
+        "capabilityTestType": "VISUAL",
+        "capabilityTestSpecificationId": "VisualCapabilityTestSpecificationDto #1",
+        "version": 2
+      }
+    ]
+  }
+}

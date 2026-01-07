@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "productGroupChangeOverallNote": {
+      "changedProductGroup": {
+        "overallNote": "sampleNote"
+      },
+      "errors": null
+    }
+  }
+}

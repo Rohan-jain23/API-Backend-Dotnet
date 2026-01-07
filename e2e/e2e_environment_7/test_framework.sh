@@ -1,0 +1,1 @@
+exitCode= /bin/bash "./e2e/e2e_environment_7/framework_api_e2e_base.sh" "MachineOverviewE2ETests|MachineProductionStatusE2ETests|ProductGroupsE2ETests"

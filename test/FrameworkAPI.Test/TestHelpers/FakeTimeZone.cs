@@ -1,0 +1,26 @@
+using System;
+using ReflectionMagic;
+
+namespace FrameworkAPI.Test.TestHelpers;
+
+public class FakeLocalTimeZone : IDisposable
+{
+    private readonly TimeZoneInfo _actualLocalTimeZoneInfo;
+
+    private static void SetLocalTimeZone(TimeZoneInfo timeZoneInfo)
+    {
+        typeof(TimeZoneInfo).AsDynamicType().s_cachedData._localTimeZone = timeZoneInfo;
+    }
+
+    public FakeLocalTimeZone(TimeZoneInfo timeZoneInfo)
+    {
+        _actualLocalTimeZoneInfo = TimeZoneInfo.Local;
+        SetLocalTimeZone(timeZoneInfo);
+    }
+
+    public void Dispose()
+    {
+        GC.SuppressFinalize(this);
+        SetLocalTimeZone(_actualLocalTimeZoneInfo);
+    }
+}

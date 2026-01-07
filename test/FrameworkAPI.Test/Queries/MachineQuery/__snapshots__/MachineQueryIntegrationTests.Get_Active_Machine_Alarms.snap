@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "machine": {
+      "activeMachineAlarms": [
+        {
+          "id": "1"
+        },
+        {
+          "id": "2"
+        }
+      ]
+    }
+  }
+}

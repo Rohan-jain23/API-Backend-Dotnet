@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "physicalAssetSettings": {
+      "cleaningInterval": {
+        "unit": "m",
+        "value": 500000
+      }
+    }
+  }
+}

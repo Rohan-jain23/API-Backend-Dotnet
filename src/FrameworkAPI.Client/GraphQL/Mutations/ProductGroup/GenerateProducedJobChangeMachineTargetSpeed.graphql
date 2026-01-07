@@ -1,0 +1,40 @@
+mutation GenerateProducedJobChangeMachineTargetSpeed(
+  $associatedJob: String!
+  $machineId: String!
+  $targetSpeed: Float!
+) {
+  producedJobChangeMachineTargetSpeed(
+    input: {
+      targetSpeedRequest: {
+        associatedJob: $associatedJob,
+        machineId: $machineId,
+        targetSpeed: $targetSpeed }
+    }
+  ) {
+    changedProducedJob {
+      jobId
+      machineId
+      uniqueId
+      ... on PaperSackProducedJob {
+        endTime
+        performance {
+          speed {
+            targetValue
+            targetValueSource
+          }
+        }
+      }
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

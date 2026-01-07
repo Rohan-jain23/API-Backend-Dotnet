@@ -1,0 +1,20 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "originalGoodQuantity": {
+        "value": 5000,
+        "unit": "unit.items"
+      },
+      "isApparentlyWrongGoodQuantity": true,
+      "averageSpeedDuringProduction": {
+        "unit": "unit.itemsPerMinute",
+        "value": 80.73284910018707
+      },
+      "targetJobTimeInMin": 62.187019101757386,
+      "targetSpeed": {
+        "unit": "unit.itemsPerMinute",
+        "value": 200
+      }
+    }
+  }
+}

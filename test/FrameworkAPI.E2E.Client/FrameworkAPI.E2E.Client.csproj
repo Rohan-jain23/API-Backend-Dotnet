@@ -1,0 +1,64 @@
+<!--
+The generated client is producing warnings which results in an issue when treating warnings as
+errors. This is why we
+are using a dedicated project for the client.
+
+Relevant issue: https://github.com/ChilliCream/graphql-platform/issues/5869
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <!-- Possible null reference argument for parameter. -->
+    <NoWarn>CS8604</NoWarn>
+  </PropertyGroup>
+
+  <Import Project="../../common/copy-schema.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="StrawberryShake" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Server" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Transport.Http" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Transport.WebSockets" Version="13.9.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <GraphQL Include="Queries\Extrusion\GetBlowFilmLineSpeedTrend.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\Extrusion\GetBlowFilmMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\Extrusion\GetCastFilmMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\PaperSack\GetPaperSackBottomerMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\PaperSack\GetPaperSackTuberMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\Printing\GetFlexoPrintMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\Printing\GetGravurePrintMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\Printing\GetOldFlexoPrintMachine.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="Queries\GetProductionStatusByTimestamp.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="schema.extensions.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="schema.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+  </ItemGroup>
+
+</Project>

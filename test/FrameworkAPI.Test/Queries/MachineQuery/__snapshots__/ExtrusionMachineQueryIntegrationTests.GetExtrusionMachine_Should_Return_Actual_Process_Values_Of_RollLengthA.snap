@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "rollLengthA": {
+          "lastValue": 1.58,
+          "unit": "mm"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "machine": {
+      "machineId": "EQ00001",
+      "producedJob": {
+        "uniqueId": "EQ00001_FakeJobId"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+query GenerateRawMaterialConsumptionByJob($machineId: String!, $jobId: String!)
+{
+    producedJob(machineId: $machineId, jobId: $jobId)
+    {
+        ... on ExtrusionProducedJob
+        {
+            rawMaterialConsumptionByMaterial
+            {
+                key
+                value
+                {
+                    unit
+                    value
+                }
+            }
+
+        }
+    }
+}

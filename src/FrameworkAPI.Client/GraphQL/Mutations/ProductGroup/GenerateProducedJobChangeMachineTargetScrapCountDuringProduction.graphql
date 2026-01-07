@@ -1,0 +1,41 @@
+mutation GenerateProducedJobChangeMachineTargetScrapCountDuringProduction(
+  $associatedJob: String!
+  $machineId: String!
+  $targetScrapCountDuringProduction: Float!
+) {
+  producedJobChangeMachineTargetScrapCountDuringProduction(
+    input: {
+      scrapCountDuringProductionRequest: {
+        associatedJob: $associatedJob
+        machineId: $machineId
+        targetScrapCountDuringProduction: $targetScrapCountDuringProduction
+      }
+    }
+  ) {
+    changedProducedJob {
+      ... on PaperSackProducedJob {
+        productId
+        performance {
+          scrap {
+            targetValue
+            targetValueSource
+          }
+        }
+      }
+      jobId
+      machineId
+      uniqueId
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

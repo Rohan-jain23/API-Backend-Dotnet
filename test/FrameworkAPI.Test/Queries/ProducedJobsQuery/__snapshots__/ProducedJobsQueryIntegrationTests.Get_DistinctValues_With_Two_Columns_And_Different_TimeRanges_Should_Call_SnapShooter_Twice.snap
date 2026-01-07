@@ -1,0 +1,26 @@
+{
+  "data": {
+    "producedJobs": {
+      "items": [
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "distinctValues": [
+              1111.1,
+              1112.2
+            ]
+          }
+        },
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "distinctValues": [
+              2222.2,
+              2223.3
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

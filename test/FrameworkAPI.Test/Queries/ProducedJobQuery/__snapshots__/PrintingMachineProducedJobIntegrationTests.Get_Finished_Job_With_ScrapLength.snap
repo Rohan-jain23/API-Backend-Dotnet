@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "scrapLength": {
+        "value": 211,
+        "unit": "m"
+      },
+      "setupScrapLength": {
+        "value": 1,
+        "unit": "m"
+      }
+    }
+  }
+}

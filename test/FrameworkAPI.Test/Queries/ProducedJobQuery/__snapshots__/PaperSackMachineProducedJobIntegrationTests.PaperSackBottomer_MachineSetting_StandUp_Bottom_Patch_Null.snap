@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "hasStandUpBottomPatch": {
+          "lastValue": null
+        },
+        "hasStandUpBottomInnerPatch": {
+          "lastValue": null
+        }
+      }
+    }
+  }
+}

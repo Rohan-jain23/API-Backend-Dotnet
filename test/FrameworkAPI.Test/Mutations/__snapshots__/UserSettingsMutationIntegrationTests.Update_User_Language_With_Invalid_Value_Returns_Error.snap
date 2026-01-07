@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "userSettingsChangeLanguage": {
+      "languageTag": null,
+      "errors": [
+        {
+          "message": "Language tag \u0027xx-XX\u0027 is not valid ."
+        }
+      ]
+    }
+  }
+}

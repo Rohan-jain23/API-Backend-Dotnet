@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "userSettings": {
+      "languageTag": "de-DE",
+      "unitRepresentation": "SI",
+      "selectedMachineDepartment": "PRINTING",
+      "selectedExtrusionMachineFamily": "BLOW_FILM",
+      "selectedOtherMachineFamily": "OTHER",
+      "selectedPaperSackMachineFamily": null,
+      "selectedPrintingMachineFamily": "FLEXO_PRINT"
+    }
+  }
+}

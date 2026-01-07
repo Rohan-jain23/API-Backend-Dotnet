@@ -1,0 +1,32 @@
+﻿{
+  "errors": [
+    {
+      "message": "Unexpected Execution Error",
+      "locations": [
+        {
+          "line": 6,
+          "column": 28
+        }
+      ],
+      "path": [
+        "producedJobs",
+        "items",
+        0,
+        "jobSize",
+        "valueWithLongestDuration"
+      ]
+    }
+  ],
+  "data": {
+    "producedJobs": {
+      "items": [
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "valueWithLongestDuration": null
+          }
+        }
+      ]
+    }
+  }
+}

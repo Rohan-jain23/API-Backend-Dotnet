@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "thicknessProfiles": {
+          "mdoProfileB": {
+            "type": "MDO_WINDER_B"
+          }
+        }
+      }
+    }
+  }
+}

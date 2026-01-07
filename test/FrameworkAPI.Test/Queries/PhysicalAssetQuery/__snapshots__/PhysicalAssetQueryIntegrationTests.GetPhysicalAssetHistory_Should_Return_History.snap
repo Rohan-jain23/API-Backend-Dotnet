@@ -1,0 +1,147 @@
+﻿{
+  "data": {
+    "physicalAsset": {
+      "history": [
+        {
+          "physicalAssetHistoryItemType": "SCRAPPED",
+          "sourceId": "scrapped_EquipmentPhysicalAssetMapping_2",
+          "createdAt": "2019-01-15T13:00:03.000Z",
+          "note": "Not possible to repair anymore"
+        },
+        {
+          "physicalAssetHistoryItemType": "SURFACE_ANOMALY",
+          "sourceId": "surfaceAnomaly_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:55:03.000Z",
+          "note": null,
+          "startPosition": 10,
+          "endPosition": 20,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "SCORING_LINE",
+          "sourceId": "scoringLine_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:50:03.000Z",
+          "note": null,
+          "position": 40,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "VOLUME_TRIGGERED_PRINT_ANOMALY",
+          "sourceId": "volumeTriggeredPrintAnomaly_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:45:03.000Z",
+          "note": "Detected on Job #54321",
+          "startPosition": 1,
+          "endPosition": 100,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "CLEANED",
+          "sourceId": "cleaned_EquipmentPhysicalAssetMapping_1",
+          "createdAt": "2019-01-15T12:40:03.000Z",
+          "note": "Cleaned with care",
+          "cleaningOperationType": "LASER_CLEANING",
+          "resetVolumeDefects": false
+        },
+        {
+          "physicalAssetHistoryItemType": "HIGH_VOLUME",
+          "sourceId": "highVolume_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:35:03.000Z",
+          "note": null,
+          "setValue": 5,
+          "measuredValue": 10,
+          "upperLimitValue": 10,
+          "lowerLimitValue": 10,
+          "unit": "cm³/m²",
+          "volumeCapabilityTestSpecification": {
+            "capabilityTestSpecificationId": "VolumeCapabilityTestSpecification_1",
+            "capabilityTestType": "VOLUME",
+            "createdAt": "2022-01-01T00:00:00.000Z",
+            "description": null,
+            "isRelative": false,
+            "version": 1,
+            "volumeDeviationLowerLimit": 10,
+            "volumeDeviationUpperLimit": 10
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "LOW_VOLUME",
+          "sourceId": "lowVolume_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:30:03.000Z",
+          "note": null,
+          "setValue": 5,
+          "measuredValue": 4,
+          "upperLimitValue": 10,
+          "lowerLimitValue": 10,
+          "unit": "cm³/m²",
+          "volumeCapabilityTestSpecification": {
+            "capabilityTestSpecificationId": "VolumeCapabilityTestSpecification_1",
+            "capabilityTestType": "VOLUME",
+            "createdAt": "2022-01-01T00:00:00.000Z",
+            "description": null,
+            "isRelative": false,
+            "version": 1,
+            "volumeDeviationLowerLimit": 10,
+            "volumeDeviationUpperLimit": 10
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "VOLUME_MEASURED",
+          "sourceId": "volumeMeasured_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:25:03.000Z",
+          "note": null,
+          "setValue": 5,
+          "measuredValue": 7,
+          "upperLimitValue": 10,
+          "lowerLimitValue": 10,
+          "unit": "cm³/m²",
+          "volumeCapabilityTestSpecification": {
+            "capabilityTestSpecificationId": "VolumeCapabilityTestSpecification_1",
+            "capabilityTestType": "VOLUME",
+            "createdAt": "2022-01-01T00:00:00.000Z",
+            "description": null,
+            "isRelative": false,
+            "version": 1,
+            "volumeDeviationLowerLimit": 10,
+            "volumeDeviationUpperLimit": 10
+          }
+        },
+        {
+          "physicalAssetHistoryItemType": "DELIVERED",
+          "sourceId": "delivered_PhysicalAsset_AniloxPhysicalAssetDto #1",
+          "createdAt": "2019-01-15T12:20:03.000Z",
+          "note": null
+        },
+        {
+          "physicalAssetHistoryItemType": "CREATED",
+          "sourceId": "created_PhysicalAsset_AniloxPhysicalAssetDto #1",
+          "createdAt": "2019-01-15T12:15:03.000Z",
+          "note": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "productionTimes": {
+        "generalDownTimeInMin": 0,
+        "jobRelatedDownTimeInMin": 6.64155,
+        "notQueryRelatedTimeInMin": 12.150166666666664,
+        "productionTimeInMin": 66.41658333333334,
+        "scheduledNonProductionTimeInMin": 0,
+        "scrapTimeInMin": 0,
+        "setupTimeInMin": 27.426383333333334,
+        "totalPlannedProductionTimeInMin": 100.48451666666666,
+        "totalTimeInMin": 112.63468333333333
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "cutType": {
+          "lastValue": "FLUSH_CUT"
+        }
+      }
+    }
+  }
+}

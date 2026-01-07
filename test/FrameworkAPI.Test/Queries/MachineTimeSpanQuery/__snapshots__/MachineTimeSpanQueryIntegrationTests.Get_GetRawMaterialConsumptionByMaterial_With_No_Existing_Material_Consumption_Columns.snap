@@ -1,0 +1,8 @@
+﻿{
+  "data": {
+    "machineTimeSpan": {
+      "__typename": "ExtrusionMachineTimeSpan",
+      "rawMaterialConsumptionByMaterial": []
+    }
+  }
+}

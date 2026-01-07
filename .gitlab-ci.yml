@@ -1,0 +1,108 @@
+image: lx64ispentw.wuh-intern.de:4555/isp6/infrastructure/netcorebuildimage/netcorebuildimage:8.0-20
+
+include:
+  - project: "ISP6/Infrastructure/ci-templates"
+    ref: 1.0.137
+    file:
+      [
+        "renovate_auto.yml",
+        "update_tag_file.yml",
+        "feature_run.yml",
+        "build_image_csharp.yml",
+        "test_lint_backend_csharp.yml",
+        "code_quality_analysis.yml",
+        "image_scan.yml",
+        "e2e_manual.yml",
+        "publish_client.yml",
+      ]
+
+stages:
+  - setup
+  - lint_test
+  - build_image
+  - e2e_manual_1
+  - e2e_manual_2
+  - run
+  - update_tag_file
+  - run_feature_manually
+  - publish_client
+  - renovate
+  - code_quality_analysis
+  - image_scan
+
+variables:
+  # remote repository
+  REMOTE_REPO: lx64ispentw.wuh-intern.de:4555/isp6/framework-api
+
+  # isp internal network name
+  NETWORK_NAME_INTERNAL: isp_internal
+  NETWORK_NAME_EXTERNAL: isp_external
+
+  # tag name ($CI_COMMIT_TAG only present while git-tagging)
+  IMAGE_TAG_FEATURE: $CI_COMMIT_REF_SLUG
+  IMAGE_TAG_RELEASE: $CI_COMMIT_TAG
+
+  # image names (mostly also container names)
+  IMAGE_NAME: isp_frameworkapi
+
+  NUGET_PACKAGES_DIRECTORY: "packages"
+  OBJECTS_DIRECTORY: "obj"
+
+  APPLICATION_NAME: FrameworkAPI
+
+  RENOVATE_ASSIGNEES:
+  RENOVATE_REVIEWERS:
+
+cache: &global_cache
+  key: "$CI_COMMIT_SHA"
+  paths:
+    # 1) Main JSON file holding information about package dependency tree, packages versions,
+    # frameworks etc. It also holds information where to the dependencies were restored.
+    - "src/$APPLICATION_NAME/$OBJECTS_DIRECTORY/project.assets.json"
+    - "src/$APPLICATION_NAME.Client/$OBJECTS_DIRECTORY/project.assets.json"
+    - "test/$APPLICATION_NAME.Client.Test/$OBJECTS_DIRECTORY/project.assets.json"
+    - "test/$APPLICATION_NAME.Test/$OBJECTS_DIRECTORY/project.assets.json"
+    - "test/$APPLICATION_NAME.E2E.Client/$OBJECTS_DIRECTORY/project.assets.json"
+    - "test/$APPLICATION_NAME.E2E.Test/$OBJECTS_DIRECTORY/project.assets.json"
+    # 2) Other NuGet and MSBuild related files. Also needed.
+    - "src/$APPLICATION_NAME/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "src/$APPLICATION_NAME/packages.lock.json"
+    - "src/$APPLICATION_NAME.Client/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "src/$APPLICATION_NAME.Client/packages.lock.json"
+    - "test/$APPLICATION_NAME.Client.Test/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "test/$APPLICATION_NAME.Client.Test/packages.lock.json"
+    - "test/$APPLICATION_NAME.Test/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "test/$APPLICATION_NAME.E2E.Client/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    - "test/$APPLICATION_NAME.E2E.Test/$OBJECTS_DIRECTORY/*.csproj.nuget.*"
+    # 3) Path to the directory where restored dependencies are kept.
+    - "$NUGET_PACKAGES_DIRECTORY"
+    # 4) node_modules
+    - "src/$APPLICATION_NAME/GraphiQL/package.json"
+    - "src/$APPLICATION_NAME/GraphiQL/node_modules"
+    # 5) graphql schema
+    - "src/$APPLICATION_NAME.Client/schema.graphql"
+    - "test/$APPLICATION_NAME.E2E.Client/schema.graphql"
+  policy: pull
+
+setup:
+  stage: setup
+  script:
+    - "dotnet restore --packages $NUGET_PACKAGES_DIRECTORY"
+    - cd src/$APPLICATION_NAME/GraphiQL
+    - if [ ! -d "./node_modules" ]; then npm ci; fi
+  except:
+    - schedules
+  tags:
+    - build
+  cache:
+    <<: *global_cache
+    policy: pull-push
+
+provide_schema:
+  stage: build_image
+  script: cp test/FrameworkAPI.Test/Schema/__snapshots__/schema.graphql.snap schema.graphql
+  artifacts:
+    expose_as: "GraphQL Schema"
+    paths: ["schema.graphql"]
+  tags:
+    - build

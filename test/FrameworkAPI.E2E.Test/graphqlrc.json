@@ -1,0 +1,9 @@
+{
+    "transportProfiles": [
+        {
+            "name": "Default",
+            "default": "InMemory",
+            "subscription": "InMemory"
+        }
+    ]
+}

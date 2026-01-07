@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "physicalAssetCapabilityTestSpecification": {
+      "capabilityTestType": "VISUAL",
+      "capabilityTestSpecificationId": "VisualCapabilityTestSpecificationDto #1",
+      "version": 1
+    }
+  }
+}

@@ -1,0 +1,107 @@
+query GetBlowFilmExtrusionProfile {
+  machine(machineId: "EQ10301") {
+    machineId
+    department
+    machineType
+    machineFamily
+    ... on ExtrusionMachine {
+      time
+      actualProcessValues {
+        thicknessProfiles {
+          mostRelevantProfile {
+            controlElements {
+              key
+              value
+            }
+            dataPoints {
+              key
+              value
+            }
+            dataPointsCount
+            isControllerOn
+            meanValue {
+              unit
+              value
+            }
+            timestamp
+            twoSigma {
+              value
+              unit
+            }
+            type
+            xAxisUnit
+          }
+          primaryProfile {
+            controlElements {
+              key
+              value
+            }
+            dataPoints {
+              key
+              value
+            }
+            dataPointsCount
+            isControllerOn
+            meanValue {
+              unit
+              value
+            }
+            timestamp
+            twoSigma {
+              value
+              unit
+            }
+            type
+            xAxisUnit
+          }
+          mdoProfileA {
+            controlElements {
+              key
+              value
+            }
+            dataPoints {
+              key
+              value
+            }
+            dataPointsCount
+            isControllerOn
+            meanValue {
+              unit
+              value
+            }
+            timestamp
+            twoSigma {
+              value
+              unit
+            }
+            type
+            xAxisUnit
+          }
+          mdoProfileB {
+            controlElements {
+              key
+              value
+            }
+            dataPoints {
+              key
+              value
+            }
+            dataPointsCount
+            isControllerOn
+            meanValue {
+              unit
+              value
+            }
+            timestamp
+            twoSigma {
+              value
+              unit
+            }
+            type
+            xAxisUnit
+          }
+        }
+      }
+    }
+  }
+}

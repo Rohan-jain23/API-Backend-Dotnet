@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "userSettingsChangeFavoriteDashboardExtrusion": {
+      "dashboardId": null,
+      "errors": [
+        {
+          "message": "Dashboard 'de2939bc-27c8-4b83-ae0b-24154b66bdb1' is not accessible by user 'test-user-id'."
+        }
+      ]
+    }
+  }
+}

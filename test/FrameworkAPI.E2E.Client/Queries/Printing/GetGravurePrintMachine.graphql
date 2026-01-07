@@ -1,0 +1,47 @@
+﻿query GetGravurePrintMachine {
+  machine(machineId: "EQ10111") {
+    department
+    machineFamily
+    machineType
+    machineId
+    name
+    producedJob {
+      customer {
+        lastValue
+      }
+      endTime
+      isActive
+      jobId
+      jobSize {
+        lastValue
+        unit
+      }
+      machineId
+      productId
+      startTime
+      uniqueId
+      ... on PrintingProducedJob {
+        goodLength {
+          unit
+          value
+        }
+        scrapLength {
+          unit
+          value
+        }
+      }
+    }
+    productionStatus {
+      category
+      id
+      startTime
+    }
+    time
+    ... on PrintingMachine {
+      speed {
+        unit
+        value
+      }
+    }
+  }
+}

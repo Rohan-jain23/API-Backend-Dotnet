@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machine": {
+      "machineId": "EQ00001",
+      "productionStatus": {
+        "category": "OFFLINE",
+        "id": 111,
+        "startTime": "2023-03-15T08:15:00.000Z"
+      }
+    }
+  }
+}

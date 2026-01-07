@@ -1,0 +1,19 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "valveBottomWidth": null,
+        "standUpBottomWidth": null,
+        "sackLength": null,
+        "sackWidth": null,
+        "tubeLength": {
+          "lastValue": null
+        },
+        "cutType": {
+          "lastValue": null
+        }
+      }
+    }
+  }
+}

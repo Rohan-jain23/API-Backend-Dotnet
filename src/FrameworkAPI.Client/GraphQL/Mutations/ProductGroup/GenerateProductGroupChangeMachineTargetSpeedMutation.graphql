@@ -1,0 +1,37 @@
+mutation GenerateProductGroupChangeMachineTargetSpeedMutation(
+  $machineId: String!
+  $productGroupId: String!
+  $targetSpeed: Float
+) {
+  productGroupChangeMachineTargetSpeed(
+    input: {
+      productGroupChangeMachineTargetSpeedRequest: {
+        machineId: $machineId
+        paperSackProductGroupId: $productGroupId
+        targetSpeed: $targetSpeed
+      }
+    }
+  ) {
+    changedProductGroup {
+      id
+      targetSpeedSettingPerMachine {
+        key
+        value {
+          unit
+          value
+        }
+      }
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

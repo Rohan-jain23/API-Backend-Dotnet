@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "goodQuantity": {
+        "value": 5166,
+        "unit": "unit.items"
+      }
+    }
+  }
+}

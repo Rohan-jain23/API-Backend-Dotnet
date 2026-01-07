@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "physicalAssetsCreateAnilox": {
+      "createdAniloxPhysicalAsset": null,
+      "errors": [
+        {
+          "__typename": "ParameterInvalidError",
+          "message": "Already existing"
+        }
+      ]
+    }
+  }
+}

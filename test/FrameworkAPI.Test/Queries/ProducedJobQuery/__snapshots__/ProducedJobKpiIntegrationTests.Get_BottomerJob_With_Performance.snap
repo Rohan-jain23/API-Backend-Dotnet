@@ -1,0 +1,48 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "performance": {
+        "downtime": {
+          "actualValue": 6.64155,
+          "lostTimeInMin": -0.6642633333333334,
+          "targetValue": 7.305813333333333,
+          "targetValueSource": "ADMIN_SETTING",
+          "unit": "label.minutesShort",
+          "wonProductivity": 0.0106817
+        },
+        "scrap": {
+          "actualValue": 210,
+          "lostTimeInMin": -0.3188950339538117,
+          "targetValue": 261.28,
+          "targetValueSource": "ADMIN_SETTING",
+          "unit": "unit.items",
+          "wonProductivity": 0.005127999999999997
+        },
+        "setup": {
+          "actualValue": 27.426383333333334,
+          "lostTimeInMin": null,
+          "targetValue": null,
+          "targetValueSource": null,
+          "unit": "label.minutesShort",
+          "wonProductivity": null
+        },
+        "speed": {
+          "actualValue": 80.73284910018707,
+          "lostTimeInMin": 38.15882310704962,
+          "targetValue": 200,
+          "targetValueSource": "MACHINE",
+          "unit": "{{ unit.items }}/{{ label.minutesShort }}",
+          "wonProductivity": -0.6136139608912572
+        },
+        "total": {
+          "actualValue": 51.41090559391323,
+          "targetValue": 160.80526361356664,
+          "lostTimeInMin": 38.29749756490928,
+          "targetValueSource": null,
+          "unit": "{{ unit.items }}/{{ label.minutesShort }}",
+          "wonProductivity": -0.6158439191665163
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "jobId": "FakeJobId",
+      "productId": null
+    }
+  }
+}

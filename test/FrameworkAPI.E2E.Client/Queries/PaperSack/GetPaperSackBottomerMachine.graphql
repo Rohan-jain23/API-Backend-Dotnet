@@ -1,0 +1,71 @@
+query GetPaperSackBottomerMachine {
+  machine(machineId: "EQ10221") {
+    department
+    machineFamily
+    machineType
+    machineId
+    name
+    producedJob {
+      customer {
+        lastValue
+      }
+      endTime
+      isActive
+      jobId
+      jobSize {
+        lastValue
+        unit
+      }
+      machineId
+      productId
+      startTime
+      uniqueId
+      ... on PaperSackProducedJob {
+        goodQuantity {
+          unit
+          value
+        }
+        machineSettings {
+          sackLength {
+            lastValue
+            unit
+          }
+          sackWidth {
+            lastValue
+            unit
+          }
+          standUpBottomWidth {
+            lastValue
+            unit
+          }
+          valveBottomWidth {
+            lastValue
+            unit
+          }
+        }
+        materialInformation {
+          lastValue
+        }
+        materialText {
+          lastValue
+        }
+        scrapQuantity {
+          unit
+          value
+        }
+      }
+    }
+    productionStatus {
+      category
+      id
+      startTime
+    }
+    time
+    ... on PaperSackMachine {
+      speed {
+        unit
+        value
+      }
+    }
+  }
+}

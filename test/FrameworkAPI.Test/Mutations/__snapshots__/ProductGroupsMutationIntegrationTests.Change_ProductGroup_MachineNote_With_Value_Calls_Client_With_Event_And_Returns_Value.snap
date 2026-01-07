@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "productGroupChangeMachineNote": {
+      "changedProductGroup": {
+        "notePerMachine": [
+          {
+            "key": "EQ10101",
+            "value": "sampleMachineNote"
+          }
+        ]
+      },
+      "errors": null
+    }
+  }
+}

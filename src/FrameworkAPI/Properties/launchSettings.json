@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "FrameworkApi": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LOG_LEVEL": "Info",
+        "RABBITMQ_DEFAULT_VHOST": "63080",
+        "ISP_HOSTNAME": "lx64ispft1.wuh-intern.de"
+      },
+      "applicationUrl": "https://localhost:5001"
+    }
+  }
+}

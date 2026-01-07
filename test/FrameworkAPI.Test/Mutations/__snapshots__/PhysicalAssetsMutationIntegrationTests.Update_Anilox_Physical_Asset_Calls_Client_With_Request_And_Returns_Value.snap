@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "physicalAssetsUpdateAnilox": {
+      "updatedAniloxPhysicalAsset": {
+        "serialNumber": "123456789",
+        "physicalAssetType": "ANILOX",
+        "physicalAssetId": "65577c04e51181aa1bdcc90f",
+        "scanCodes": [
+          "123456789"
+        ]
+      },
+      "errors": null
+    }
+  }
+}

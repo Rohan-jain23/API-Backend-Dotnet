@@ -1,0 +1,40 @@
+﻿{
+  "data": {
+    "paperSackProductGroup": {
+      "id": "v0-TX",
+      "firstProductionDate": "1970-01-01T00:00:00.000Z",
+      "friendlyName": "FriendlyName",
+      "producedJobsCount": 1,
+      "parentId": null,
+      "productGroupDefinitionVersion": 1,
+      "lastProductionDate": "1970-01-01T00:01:00.000Z",
+      "attributes": {
+        "isValveSack": null,
+        "sackWidth": {
+          "formattedValue": null,
+          "unit": "mm"
+        },
+        "tubeLayers": null
+      },
+      "productIds": [
+        "Product01"
+      ],
+      "overallNote": "Note",
+      "targetSpeedSettingPerMachine": [
+        {
+          "key": "EQ10101",
+          "value": {
+            "unit": "TargetSpeedUnit",
+            "value": 120
+          }
+        }
+      ],
+      "notePerMachine": [
+        {
+          "key": "EQ10101",
+          "value": "NoteForEQ10101"
+        }
+      ]
+    }
+  }
+}

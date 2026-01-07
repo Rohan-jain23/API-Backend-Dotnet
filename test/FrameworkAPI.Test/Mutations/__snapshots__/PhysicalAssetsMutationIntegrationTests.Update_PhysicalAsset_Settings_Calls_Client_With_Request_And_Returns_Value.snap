@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "physicalAssetUpdateSettings": {
+      "updatePhysicalAssetSettings": {
+        "cleaningInterval": {
+          "unit": "m",
+          "value": 1000
+        }
+      },
+      "errors": null
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Ignore CVEs from old dotnet packages references because runtime is newer
+CVE-2018-8292
+CVE-2017-0247
+CVE-2017-0249
+CVE-2017-11770

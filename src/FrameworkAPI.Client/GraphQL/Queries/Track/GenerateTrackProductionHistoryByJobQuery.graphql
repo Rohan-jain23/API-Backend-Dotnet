@@ -1,0 +1,34 @@
+query GenerateTrackProductionHistoryByJob(
+  $machineId: String!
+  $jobId: String!
+) {
+  producedJob(machineId: $machineId, jobId: $jobId) {
+    ... on PaperSackProducedJob {
+      trackProductionHistory {
+        entryType
+        endTime
+        endPosition
+        jobId
+        startPosition
+        startTime
+        ... on TrackDowntimeHistoryEntry {
+          comment
+          location
+          firstLevelReason
+          secondLevelReason
+          isDetectedByRuby
+          reportingUserFullName
+          reportingUserId
+        }
+        hasPendingToDo
+        ... on TrackProductionHistoryEntry {
+          minorStopsCount
+          minorStopsDurationInMin
+          averageSpeed
+        }
+      }
+    }
+    jobId
+    machineId
+  }
+}

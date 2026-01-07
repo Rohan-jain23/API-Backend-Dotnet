@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "physicalAssetsCreateVolumeCapabilityTestResult": {
+      "createdVolumeCapabilityTestResult": {
+        "capabilityTestResultId": "65b3693056068ff18b8d1a7f",
+        "capabilityTestSpecificationId": "65b8b4ed9a37742358b8ef5c",
+        "physicalAssetId": "65577c04e51181aa1bdcc90f",
+        "testDateTime": "2023-02-01T12:30:00.000Z",
+        "testerUserId": "test-user-id",
+        "volume": 15
+      },
+      "errors": null
+    }
+  }
+}

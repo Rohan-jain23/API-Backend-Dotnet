@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "endTime": null,
+      "machineSettings": {
+        "width": {
+          "lastValue": 22.2,
+          "unit": "FakeUnit"
+        }
+      }
+    }
+  }
+}

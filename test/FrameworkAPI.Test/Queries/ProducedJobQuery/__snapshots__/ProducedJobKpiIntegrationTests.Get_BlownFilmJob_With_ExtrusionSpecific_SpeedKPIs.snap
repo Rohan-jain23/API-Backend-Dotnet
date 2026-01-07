@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "averageThroughputRateDuringProduction": {
+        "unit": "kg/h",
+        "value": 4843.970946011224
+      },
+      "targetThroughputRate": {
+        "unit": "kg/h",
+        "value": 200
+      }
+    }
+  }
+}

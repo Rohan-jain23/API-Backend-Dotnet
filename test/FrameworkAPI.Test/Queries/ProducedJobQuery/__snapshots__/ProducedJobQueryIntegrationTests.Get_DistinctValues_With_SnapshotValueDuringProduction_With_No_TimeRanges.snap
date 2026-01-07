@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "customer": {
+        "distinctValues": []
+      }
+    }
+  }
+}

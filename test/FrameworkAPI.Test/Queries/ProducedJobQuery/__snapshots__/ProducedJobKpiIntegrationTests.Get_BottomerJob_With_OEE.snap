@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "overallEquipmentEffectiveness": {
+        "availability": 0.6609633557143381,
+        "effectiveness": 0.40471819914454094,
+        "oee": 0.2570545279695661,
+        "quality": 0.9609375
+      }
+    }
+  }
+}

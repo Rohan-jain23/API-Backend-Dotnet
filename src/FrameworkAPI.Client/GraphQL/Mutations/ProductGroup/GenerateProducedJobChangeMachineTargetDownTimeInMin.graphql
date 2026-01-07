@@ -1,0 +1,41 @@
+mutation GenerateProducedJobChangeMachineTargetDownTimeInMin(
+  $associatedJob: String!
+  $machineId: String!
+  $targetDownTimeInMin: Float!
+) {
+  producedJobChangeMachineTargetDownTimeInMin(
+    input: {
+      downTimeRequest: {
+        associatedJob: $associatedJob
+        machineId: $machineId
+        targetDownTimeInMin: $targetDownTimeInMin
+      }
+    }
+  ) {
+    changedProducedJob {
+      ... on PaperSackProducedJob {
+        productId
+        performance {
+          downtime {
+            targetValue
+            targetValueSource
+          }
+        }
+      }
+      jobId
+      machineId
+      uniqueId
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

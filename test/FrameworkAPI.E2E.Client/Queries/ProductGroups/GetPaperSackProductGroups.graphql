@@ -1,0 +1,34 @@
+query GetPaperSackProductGroups {
+    paperSackProductGroups {
+        items {
+            attributes {
+                isValveSack
+            }
+            firstProductionDate
+            friendlyName
+            id
+            lastProductionDate
+            notePerMachine {
+                key
+                value
+            }
+            overallNote
+            parentId
+            producedJobsCount
+            productGroupDefinitionVersion
+            productIds
+            targetSpeedSettingPerMachine {
+                key
+                value {
+                    unit
+                    value
+                }
+            }
+        }
+        totalCount
+        pageInfo {
+            hasNextPage
+            hasPreviousPage
+        }
+    }
+}

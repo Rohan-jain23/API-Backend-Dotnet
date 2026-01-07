@@ -1,0 +1,66 @@
+﻿{
+  "data": {
+    "dashboardSettingsCreateDashboard": {
+      "dashboardSettings": {
+        "canOnlyBeEditedByCreator": true,
+        "createdDate": "1970-01-01T00:00:00.000Z",
+        "creatorFullName": "FakeName",
+        "creatorUserId": "12345678-1234-1234-1234-123456789012",
+        "dashboardId": "87654321-27c8-4b83-ae0b-24154b66bdb1",
+        "department": "EXTRUSION",
+        "friendlyName": "FriendlyName",
+        "isPublic": true,
+        "lastEditedDate": "1970-01-01T00:00:00.000Z",
+        "lastEditorFullName": "FakeName",
+        "lastEditorUserId": "12345678-1234-1234-1234-123456789012",
+        "widget1": {
+          "additionalSetting": "PlainString",
+          "machineIds": [
+            "EQ12345",
+            "EQ11111",
+            "EQ33333"
+          ],
+          "widgetCatalogId": "FakeCatalogId"
+        },
+        "widget2": null,
+        "widget3": {
+          "additionalSetting": "PlainString",
+          "machineIds": [
+            "EQ12345",
+            "EQ11111",
+            "EQ33333"
+          ],
+          "widgetCatalogId": "FakeCatalogId"
+        },
+        "widget4": {
+          "additionalSetting": "PlainString",
+          "machineIds": [
+            "EQ12345",
+            "EQ11111",
+            "EQ33333"
+          ],
+          "widgetCatalogId": "FakeCatalogId"
+        },
+        "widget5": {
+          "additionalSetting": "PlainString",
+          "machineIds": [
+            "EQ12345",
+            "EQ11111",
+            "EQ33333"
+          ],
+          "widgetCatalogId": "FakeCatalogId"
+        },
+        "widget6": {
+          "additionalSetting": "PlainString",
+          "machineIds": [
+            "EQ12345",
+            "EQ11111",
+            "EQ33333"
+          ],
+          "widgetCatalogId": "FakeCatalogId"
+        }
+      },
+      "errors": null
+    }
+  }
+}

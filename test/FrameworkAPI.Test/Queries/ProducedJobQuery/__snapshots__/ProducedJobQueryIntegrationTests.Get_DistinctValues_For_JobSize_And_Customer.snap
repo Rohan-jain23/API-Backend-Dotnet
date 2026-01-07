@@ -1,0 +1,17 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "customer": {
+        "distinctValues": [
+          "FakeCustomer"
+        ]
+      },
+      "jobSize": {
+        "distinctValues": [
+          1111.1
+        ]
+      }
+    }
+  }
+}

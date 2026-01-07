@@ -1,0 +1,20 @@
+﻿{
+  "errors": [
+    {
+      "message": "\u0060cloudEnabled\u0060 is a required field and cannot be null.",
+      "locations": [
+        {
+          "line": 5,
+          "column": 21
+        }
+      ],
+      "path": [
+        "globalSettingsChangeRubyCloudEnabled"
+      ],
+      "extensions": {
+        "field": "cloudEnabled",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Input-Object-Required-Fields"
+      }
+    }
+  ]
+}

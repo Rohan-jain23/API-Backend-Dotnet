@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "averageSpeedDuringProduction": {
+        "unit": "m/min",
+        "value": 80.73284910018707
+      },
+      "targetSpeed": {
+        "unit": "m/min",
+        "value": 200
+      }
+    }
+  }
+}

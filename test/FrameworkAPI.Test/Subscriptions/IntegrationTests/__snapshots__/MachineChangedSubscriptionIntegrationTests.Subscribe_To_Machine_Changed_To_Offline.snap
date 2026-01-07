@@ -1,0 +1,4 @@
+﻿[
+  "{\n  \"data\": {\n    \"machineChanged\": {\n      \"machineId\": \"EQ12345\",\n      \"productionStatus\": {\n        \"category\": \"PRODUCTION\",\n        \"id\": 1\n      }\n    }\n  }\n}",
+  "{\n  \"data\": {\n    \"machineChanged\": {\n      \"machineId\": \"EQ12345\",\n      \"productionStatus\": {\n        \"category\": \"OFFLINE\",\n        \"id\": -11\n      }\n    }\n  }\n}"
+]

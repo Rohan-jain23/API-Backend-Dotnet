@@ -1,0 +1,29 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "rawMaterialConsumptionByMaterial": [
+        {
+          "key": "ArbitraryMaterialName3",
+          "value": {
+            "value": 2000,
+            "unit": "kg"
+          }
+        },
+        {
+          "key": "ArbitraryMaterialName2",
+          "value": {
+            "value": 500,
+            "unit": "kg"
+          }
+        },
+        {
+          "key": "ArbitraryMaterialName1",
+          "value": {
+            "value": 100,
+            "unit": "kg"
+          }
+        }
+      ]
+    }
+  }
+}

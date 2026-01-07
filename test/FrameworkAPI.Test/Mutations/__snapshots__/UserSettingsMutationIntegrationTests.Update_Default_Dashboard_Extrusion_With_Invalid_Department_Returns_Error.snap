@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "userSettingsChangeFavoriteDashboardExtrusion": {
+      "dashboardId": null,
+      "errors": [
+        {
+          "message": "Requested dashboard is not a Extrusion dashboard.",
+          "statusCode": 400
+        }
+      ]
+    }
+  }
+}

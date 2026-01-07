@@ -1,0 +1,41 @@
+mutation GenerateProducedJobChangeMachineTargetSetupTimeInMin(
+  $associatedJob: String!
+  $machineId: String!
+  $targetSetupTimeInMin: Float!
+) {
+  producedJobChangeMachineTargetSetupTimeInMin(
+    input: {
+      setupTimeRequest: {
+        associatedJob: $associatedJob
+        machineId: $machineId
+        targetSetupTimeInMin: $targetSetupTimeInMin
+      }
+    }
+  ) {
+    changedProducedJob {
+      jobId
+      machineId
+      uniqueId
+      ... on PaperSackProducedJob {
+        productId
+        performance {
+          setup {
+            targetValue
+            targetValueSource
+          }
+        }
+      }
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

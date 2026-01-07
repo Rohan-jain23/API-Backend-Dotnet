@@ -1,0 +1,7 @@
+query GetProductionStatusByTimestamp($timestamp: DateTime, $machineId: String!) {
+    machine(machineId: $machineId, timestamp: $timestamp) {
+        productionStatus {
+            category
+        }
+    }
+}

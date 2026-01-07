@@ -1,0 +1,43 @@
+﻿{
+  "data": {
+    "physicalAsset": {
+      "physicalAssetId": "AniloxPhysicalAssetDto #1",
+      "physicalAssetType": "ANILOX",
+      "serialNumber": "0123456789",
+      "scanCodes": [
+        "123456789"
+      ],
+      "engraving": "HEX 60°",
+      "screen": {
+        "value": 300,
+        "unit": "L/cm"
+      },
+      "opticalDensity": {
+        "setValue": null,
+        "measuredValue": null,
+        "measuredAt": "2018-01-15T12:15:03.000Z",
+        "unit": null
+      },
+      "volume": {
+        "setValue": 5,
+        "measuredValue": null,
+        "measuredAt": "2018-01-15T12:15:03.000Z",
+        "unit": "cm³/m²"
+      },
+      "usageCounter": {
+        "atLastCleaning": 75,
+        "current": 200,
+        "unit": "mm",
+        "cleaningInterval": 100,
+        "cleaningIntervalExceeded": true,
+        "sinceLastCleaning": 125
+      },
+      "timeUsageCounter": {
+        "atLastCleaning": 60,
+        "current": 100,
+        "unit": "ms",
+        "sinceLastCleaning": 40
+      }
+    }
+  }
+}

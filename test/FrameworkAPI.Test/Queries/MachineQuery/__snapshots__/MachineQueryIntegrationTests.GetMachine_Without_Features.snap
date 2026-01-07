@@ -1,0 +1,35 @@
+﻿{
+  "data": {
+    "machine": {
+      "machineId": "EQ00001",
+      "features": {
+        "alarmHandlingFeatureVersion": null,
+        "barcodeCheckFeatureVersion": null,
+        "browserOverlayFeatureVersion": null,
+        "checkFeatureVersion": null,
+        "defectCheckFeatureVersion": null,
+        "flowFeatureVersion": null,
+        "hasAlarmHandlingFeature": false,
+        "hasBarcodeCheckFeature": false,
+        "hasBrowserOverlayFeature": false,
+        "hasCheckFeature": false,
+        "hasDefectCheckFeature": false,
+        "hasFlowFeature": false,
+        "hasMaterialFeature": false,
+        "hasMessagingFeature": false,
+        "hasPdfCheckFeature": false,
+        "hasPdfCheckPackageTransferFeature": false,
+        "hasProcessDataFeature": false,
+        "hasProductionPeriodsFeature": false,
+        "hasRgbLabCheckFeature": false,
+        "materialFeatureVersion": null,
+        "messagingFeatureVersion": null,
+        "pdfCheckFeatureVersion": null,
+        "pdfCheckPackageTransferFeatureVersion": null,
+        "processDataFeatureVersion": null,
+        "productionPeriodsFeatureVersion": null,
+        "rgbLabCheckFeatureVersion": null
+      }
+    }
+  }
+}

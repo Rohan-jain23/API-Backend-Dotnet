@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "thickness": {
+          "lastValue": 1.7,
+          "unit": "mm"
+        }
+      }
+    }
+  }
+}

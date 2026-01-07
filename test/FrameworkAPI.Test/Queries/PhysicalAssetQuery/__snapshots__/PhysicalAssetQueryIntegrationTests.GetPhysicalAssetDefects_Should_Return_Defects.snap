@@ -1,0 +1,95 @@
+﻿{
+  "data": {
+    "physicalAsset": {
+      "defects": [
+        {
+          "physicalAssetDefectType": "LOW_VOLUME",
+          "sourceId": "lowVolume_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:20:03.000Z",
+          "setValue": 5,
+          "measuredValue": 4,
+          "upperLimitValue": 10,
+          "lowerLimitValue": 10,
+          "unit": "cm³/m²",
+          "volumeCapabilityTestSpecification": {
+            "capabilityTestSpecificationId": "VolumeCapabilityTestSpecification_1",
+            "capabilityTestType": "VOLUME",
+            "createdAt": "2022-01-01T00:00:00.000Z",
+            "description": null,
+            "isRelative": false,
+            "version": 1,
+            "volumeDeviationLowerLimit": 10,
+            "volumeDeviationUpperLimit": 10
+          }
+        },
+        {
+          "physicalAssetDefectType": "HIGH_VOLUME",
+          "sourceId": "highVolume_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:25:03.000Z",
+          "setValue": 5,
+          "measuredValue": 10,
+          "upperLimitValue": 10,
+          "lowerLimitValue": 10,
+          "unit": "cm³/m²",
+          "volumeCapabilityTestSpecification": {
+            "capabilityTestSpecificationId": "VolumeCapabilityTestSpecification_1",
+            "capabilityTestType": "VOLUME",
+            "createdAt": "2022-01-01T00:00:00.000Z",
+            "description": null,
+            "isRelative": false,
+            "version": 1,
+            "volumeDeviationLowerLimit": 10,
+            "volumeDeviationUpperLimit": 10
+          }
+        },
+        {
+          "physicalAssetDefectType": "SCORING_LINE",
+          "sourceId": "scoringLine_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:30:03.000Z",
+          "position": 50,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        },
+        {
+          "physicalAssetDefectType": "SURFACE_ANOMALY",
+          "sourceId": "surfaceAnomaly_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:35:03.000Z",
+          "startPosition": 20,
+          "endPosition": 30,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        },
+        {
+          "physicalAssetDefectType": "VOLUME_TRIGGERED_PRINT_ANOMALY",
+          "sourceId": "volumeTriggeredPrintAnomaly_CapabilityTestResult_1",
+          "createdAt": "2019-01-15T12:35:03.000Z",
+          "startPosition": 20,
+          "endPosition": 30,
+          "unit": "mm",
+          "aniloxCapabilityTestSpecification": {
+            "alwaysPass": false,
+            "capabilityTestSpecificationId": "AniloxCapabilityTestSpecification_1",
+            "capabilityTestType": "ANILOX",
+            "createdAt": "2020-01-01T00:00:00.000Z",
+            "description": null,
+            "version": 1
+          }
+        }
+      ]
+    }
+  }
+}

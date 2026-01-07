@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "producedJobChangeMachineTargetDownTimeInMin": {
+      "changedProducedJob": {
+        "jobId": "test_job",
+        "machineId": "EQ10211"
+      },
+      "errors": null
+    }
+  }
+}

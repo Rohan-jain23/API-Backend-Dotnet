@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "twoSigma": {
+          "lastValue": 77.7,
+          "unit": "%"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "physicalAssets": [
+      {
+        "physicalAssetId": "AniloxPhysicalAssetDto #1",
+        "physicalAssetType": "ANILOX",
+        "serialNumber": "9876543210"
+      }
+    ]
+  }
+}

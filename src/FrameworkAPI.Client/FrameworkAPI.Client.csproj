@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+    <PackageId>WuH.Ruby.FrameworkAPI.Client</PackageId>
+    <AssemblyName>FrameworkAPI.Client</AssemblyName>
+    <Copyright>Copyright WINDMOELLER AND HOELSCHER KG 2024</Copyright>
+    <IsPackable>true</IsPackable>
+    <Deterministic>false</Deterministic>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Nullable>enable</Nullable>
+    <RootNamespace>WuH.Ruby.FrameworkAPI.Client</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="../../common/copy-schema.targets" />
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.HeaderPropagation" Version="8.0.16" />
+    <PackageReference Include="StrawberryShake" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Server" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Transport.Http" Version="13.9.14" />
+    <PackageReference Include="StrawberryShake.Transport.WebSockets" Version="13.9.14" />
+    <PackageReference Include="WuH.Ruby.Common.Core" Version="2.1.3"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <GraphQL Include="GraphQL\Queries\MaterialConsumption\GenerateRawMaterialConsumptionByJobQuery.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="GraphQL\Queries\MaterialConsumption\GenerateRawMaterialConsumptionByTimeSpanQuery.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="schema.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+    <GraphQL Include="schema.extensions.graphql">
+      <Generator>MSBuild:GenerateGraphQLCode</Generator>
+    </GraphQL>
+  </ItemGroup>
+
+</Project>

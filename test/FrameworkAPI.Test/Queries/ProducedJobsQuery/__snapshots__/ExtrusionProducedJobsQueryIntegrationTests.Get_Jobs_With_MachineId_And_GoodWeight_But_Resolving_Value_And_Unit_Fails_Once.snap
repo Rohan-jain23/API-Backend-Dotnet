@@ -1,0 +1,56 @@
+﻿{
+  "errors": [
+    {
+      "message": "Unexpected Execution Error",
+      "locations": [
+        {
+          "line": 7,
+          "column": 29
+        }
+      ],
+      "path": [
+        "producedJobs",
+        "items",
+        1,
+        "goodWeight",
+        "value"
+      ]
+    },
+    {
+      "message": "Unexpected Execution Error",
+      "locations": [
+        {
+          "line": 8,
+          "column": 29
+        }
+      ],
+      "path": [
+        "producedJobs",
+        "items",
+        1,
+        "goodWeight",
+        "unit"
+      ]
+    }
+  ],
+  "data": {
+    "producedJobs": {
+      "items": [
+        {
+          "machineId": "EQ00001",
+          "goodWeight": {
+            "value": 128.99,
+            "unit": "kg"
+          }
+        },
+        {
+          "machineId": "EQ00002",
+          "goodWeight": {
+            "value": null,
+            "unit": null
+          }
+        }
+      ]
+    }
+  }
+}

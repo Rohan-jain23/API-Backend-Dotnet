@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "globalSettings": {
+      "isUserBehaviorTrackingEnabled": false,
+      "isRubyCloudEnabled": true,
+      "rubyTimeZoneIpAddressWithPort": "ntp1.ptb.de",
+      "rubyFriendlyName": "My friendly ruby",
+      "rubyTimeZone": "Pacific/Rarotonga",
+      "rubyTimeZoneIsDayLightSavingTime": true,
+      "userBehaviorTrackingUrl": "https://tracking/"
+    }
+  }
+}

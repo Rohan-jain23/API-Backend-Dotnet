@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "sackLength": {
+          "lastValue": 33333.3
+        },
+        "sackWidth": {
+          "lastValue": 44.4
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "errors": [
+    {
+      "message": "\u0060unitRepresentation\u0060 is a required field and cannot be null.",
+      "locations": [
+        {
+          "line": 2,
+          "column": 50
+        }
+      ],
+      "path": [
+        "userSettingsChangeUnitSystem"
+      ],
+      "extensions": {
+        "field": "unitRepresentation",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Input-Object-Required-Fields"
+      }
+    }
+  ]
+}

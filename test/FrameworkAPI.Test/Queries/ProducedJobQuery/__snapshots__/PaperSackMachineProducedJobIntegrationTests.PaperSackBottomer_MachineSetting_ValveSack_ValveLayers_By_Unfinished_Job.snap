@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "isValveSack": {
+          "lastValue": false
+        },
+        "valveLayers": {
+          "lastValue": 10
+        }
+      }
+    }
+  }
+}

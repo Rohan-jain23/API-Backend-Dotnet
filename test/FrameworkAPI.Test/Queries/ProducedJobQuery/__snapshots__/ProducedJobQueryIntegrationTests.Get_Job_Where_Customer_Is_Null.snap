@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "customer": {
+        "lastValue": null,
+        "valueWithLongestDuration": null
+      }
+    }
+  }
+}

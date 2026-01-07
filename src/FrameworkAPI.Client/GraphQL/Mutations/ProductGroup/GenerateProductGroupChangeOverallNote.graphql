@@ -1,0 +1,29 @@
+mutation GenerateProductGroupChangeOverallNote(
+  $productGroupId: String!
+  $note: String!
+) {
+  productGroupChangeOverallNote(
+    input: {
+      productGroupChangeOverallNoteRequest: {
+        paperSackProductGroupId: $productGroupId
+        note: $note
+      }
+    }
+  ) {
+    changedProductGroup {
+      overallNote
+      id
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "scrapWeight": {
+        "value": 211,
+        "unit": "kg"
+      },
+      "setupScrapWeight": {
+        "value": 1,
+        "unit": "kg"
+      },
+      "scrapLength": {
+        "value": 456,
+        "unit": "m"
+      },
+      "setupScrapLength": {
+        "value": 2,
+        "unit": "m"
+      }
+    }
+  }
+}

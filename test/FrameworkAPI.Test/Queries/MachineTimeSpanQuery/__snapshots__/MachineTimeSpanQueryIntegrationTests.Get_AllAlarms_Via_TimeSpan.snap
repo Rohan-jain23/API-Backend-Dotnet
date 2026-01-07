@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "machineTimeSpan": {
+      "machineAlarms": [
+        {
+          "id": "1"
+        },
+        {
+          "id": "2"
+        }
+      ]
+    }
+  }
+}

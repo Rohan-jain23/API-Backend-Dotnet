@@ -1,0 +1,20 @@
+﻿{
+  "errors": [
+    {
+      "message": "`serialNumber` is a required field and cannot be null.",
+      "locations": [
+        {
+          "line": 7,
+          "column": 25
+        }
+      ],
+      "path": [
+        "physicalAssetsUpdateAnilox"
+      ],
+      "extensions": {
+        "field": "serialNumber",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Input-Object-Required-Fields"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿query GetCastFilmMachine {
+  machine(machineId: "EQ10311") {
+    department
+    machineFamily
+    machineType
+    machineId
+    name
+    producedJob {
+      customer {
+        lastValue
+      }
+      endTime
+      isActive
+      jobId
+      jobSize {
+        lastValue
+        unit
+      }
+      machineId
+      productId
+      startTime
+      uniqueId
+      ... on ExtrusionProducedJob {
+        goodLength {
+          unit
+          value
+        }
+        goodWeight {
+          unit
+          value
+        }
+        machineSettings {
+          thickness {
+            lastValue
+            unit
+          }
+          width {
+            lastValue
+            unit
+          }
+        }
+        scrapLength {
+          unit
+          value
+        }
+        scrapWeight {
+          unit
+          value
+        }
+      }
+    }
+    ... on ExtrusionMachine {
+      actualProcessValues {
+        twoSigma {
+          lastValue
+          unit
+        }
+      }
+      lineSpeed {
+        unit
+        value
+      }
+      throughputRate {
+        unit
+        value
+      }
+    }
+    productionStatus {
+      category
+      id
+      startTime
+    }
+    time
+  }
+}

@@ -1,0 +1,66 @@
+query GetPaperSackTuberMachine {
+  machine(machineId: "EQ10211") {
+    department
+    machineFamily
+    machineType
+    machineId
+    name
+    producedJob {
+      customer {
+        lastValue
+      }
+      endTime
+      isActive
+      jobId
+      jobSize {
+        lastValue
+        unit
+      }
+      machineId
+      productId
+      startTime
+      uniqueId
+      ... on PaperSackProducedJob {
+        goodQuantity {
+          unit
+          value
+        }
+        machineSettings {
+          cutType {
+            lastValue
+          }
+          tubeLength {
+            lastValue
+            unit
+          }
+          tubeWidth {
+            lastValue
+            unit
+          }
+        }
+        materialInformation {
+          lastValue
+        }
+        materialText {
+          lastValue
+        }
+        scrapQuantity {
+          unit
+          value
+        }
+      }
+    }
+    productionStatus {
+      category
+      id
+      startTime
+    }
+    time
+    ... on PaperSackMachine {
+      speed {
+        unit
+        value
+      }
+    }
+  }
+}

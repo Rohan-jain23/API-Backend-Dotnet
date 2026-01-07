@@ -1,0 +1,105 @@
+﻿{
+  "data": {
+    "paperSackProductGroups": {
+      "items": [
+        {
+          "id": "v0-TX",
+          "firstProductionDate": "1970-01-01T00:00:00.000Z",
+          "friendlyName": "FriendlyName",
+          "producedJobsCount": 1,
+          "parentId": null,
+          "productGroupDefinitionVersion": 1,
+          "lastProductionDate": "1970-01-01T00:01:00.000Z",
+          "attributes": {
+            "isValveSack": null,
+            "tubeLayers": null
+          },
+          "productIds": [
+            "Product01"
+          ],
+          "overallNote": "Note",
+          "targetSpeedSettingPerMachine": [
+            {
+              "key": "EQ10101",
+              "value": {
+                "unit": "TargetSpeedUnit",
+                "value": 120
+              }
+            }
+          ],
+          "notePerMachine": [
+            {
+              "key": "EQ10101",
+              "value": "NoteForEQ10101"
+            }
+          ],
+          "statisticsPerMachine": [
+            {
+              "value": {
+                "performance": {
+                  "downtime": {
+                    "actualValue": 410,
+                    "lostTimeInMin": 20,
+                    "targetValueSource": null,
+                    "targetValue": 700,
+                    "unit": "timeUnit",
+                    "wonProductivity": 21
+                  },
+                  "scrap": {
+                    "actualValue": 0,
+                    "targetValue": 700,
+                    "lostTimeInMin": 30,
+                    "targetValueSource": null,
+                    "unit": "qualityUnit",
+                    "wonProductivity": 31
+                  },
+                  "setup": {
+                    "actualValue": 430,
+                    "lostTimeInMin": 10,
+                    "targetValue": 600,
+                    "targetValueSource": null,
+                    "unit": "timeUnit",
+                    "wonProductivity": 11
+                  },
+                  "speed": {
+                    "actualValue": 460,
+                    "lostTimeInMin": 1,
+                    "targetValue": 500,
+                    "targetValueSource": null,
+                    "unit": "rateUnit",
+                    "wonProductivity": 2
+                  },
+                  "total": {
+                    "actualValue": 900,
+                    "lostTimeInMin": 40,
+                    "targetValueSource": null,
+                    "targetValue": 800,
+                    "unit": "rateUnit",
+                    "wonProductivity": 41
+                  }
+                },
+                "productionTimes": {
+                  "generalDownTimeInMin": 10,
+                  "jobRelatedDownTimeInMin": 410,
+                  "notQueryRelatedTimeInMin": 300,
+                  "scheduledNonProductionTimeInMin": 450,
+                  "productionTimeInMin": 400,
+                  "scrapTimeInMin": 440,
+                  "totalPlannedProductionTimeInMin": 200,
+                  "totalTimeInMin": 100,
+                  "setupTimeInMin": 430
+                },
+                "totalProducedGoodQuantity": 100
+              }
+            }
+          ]
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "hasPreviousPage": false
+      },
+      "totalCount": 1
+    }
+  }
+}

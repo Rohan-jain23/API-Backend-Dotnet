@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "tubeLength": {
+          "lastValue": 22.2
+        },
+        "tubeWidth": {
+          "lastValue": 1111.1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#root {
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+}
+.graphiql-container-main {
+  height: 100%;
+}

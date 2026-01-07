@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "machine": {
+      "actualProcessValues": {
+        "thicknessProfiles": {
+          "primaryProfile": {
+            "type": "PRIMARY",
+            "xAxisUnit": "°"
+          }
+        }
+      }
+    }
+  }
+}

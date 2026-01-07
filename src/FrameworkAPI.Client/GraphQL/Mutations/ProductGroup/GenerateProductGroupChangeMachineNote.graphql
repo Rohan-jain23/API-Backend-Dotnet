@@ -1,0 +1,34 @@
+mutation GenerateProductGroupChangeMachineNote(
+  $machineId: String!
+  $productGroupId: String!
+  $note: String!
+) {
+  productGroupChangeMachineNote(
+    input: {
+      productGroupChangeMachineNoteRequest: {
+        machineId: $machineId
+        paperSackProductGroupId: $productGroupId
+        note: $note
+      }
+    }
+  ) {
+    changedProductGroup {
+      notePerMachine {
+        key
+        value
+      }
+      id
+    }
+    errors {
+      ... on ParameterInvalidError {
+        __typename
+        message
+      }
+      ... on InternalServiceError {
+        __typename
+        message
+        statusCode
+      }
+    }
+  }
+}

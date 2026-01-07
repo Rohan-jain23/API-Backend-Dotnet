@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "customer": {
+        "valueWithLongestDuration": "FakeCustomer"
+      },
+      "jobSize": {
+        "valueWithLongestDuration": 1111.1
+      }
+    }
+  }
+}

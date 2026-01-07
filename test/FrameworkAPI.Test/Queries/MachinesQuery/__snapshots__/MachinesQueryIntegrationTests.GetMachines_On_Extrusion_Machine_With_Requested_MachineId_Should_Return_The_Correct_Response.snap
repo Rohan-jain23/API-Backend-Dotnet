@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "machines": [
+      {
+        "machineFamily": "CAST_FILM",
+        "machineId": "EQ00001"
+      },
+      {}
+    ]
+  }
+}

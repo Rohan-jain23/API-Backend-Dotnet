@@ -1,0 +1,21 @@
+query GetPaperSackProducedJob($jobId: String!, $machineId: String!) {
+    producedJob(jobId: $jobId, machineId: $machineId) {
+        productId
+        machineId
+        jobId
+        startTime
+        endTime
+        ... on PaperSackProducedJob {
+            productGroup {
+                id
+                parentId
+                producedJobsCount
+                productGroupDefinitionVersion
+                productIds
+                lastProductionDate
+                firstProductionDate
+                friendlyName
+            }
+        }
+    }
+}

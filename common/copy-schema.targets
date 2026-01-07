@@ -1,0 +1,8 @@
+﻿<Project InitialTargets="CopyGraphqlSchema">
+  <Target Name="CopyGraphqlSchema">
+    <Message Importance="high" Text="Copying graphql schema." />
+    <Copy 
+      SourceFiles="../../test/FrameworkAPI.Test/Schema/__snapshots__/schema.graphql.snap"
+      DestinationFiles="$(ProjectDir)/schema.graphql" />
+  </Target>
+</Project>

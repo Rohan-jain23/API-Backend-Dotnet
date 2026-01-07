@@ -1,0 +1,15 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "hasValveBottomPatch": {
+          "lastValue": true
+        },
+        "hasValveBottomInnerPatch": {
+          "lastValue": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "paperSackProductGroups": {
+      "items": [
+        {
+          "id": "v0-TX"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false
+      },
+      "totalCount": 2
+    }
+  }
+}

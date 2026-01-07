@@ -1,0 +1,26 @@
+﻿{
+  "data": {
+    "producedJobs": {
+      "items": [
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "standardDeviationValue": 1111.1
+          }
+        },
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "standardDeviationValue": 1111.1
+          }
+        },
+        {
+          "machineId": "EQ12345",
+          "jobSize": {
+            "standardDeviationValue": 1111.1
+          }
+        }
+      ]
+    }
+  }
+}

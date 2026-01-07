@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "machines": [
+      {
+        "machineId": "EQ00001"
+      },
+      {
+        "machineId": "EQ00002"
+      }
+    ]
+  }
+}

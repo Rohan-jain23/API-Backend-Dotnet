@@ -1,0 +1,12 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ00001",
+      "machineSettings": {
+        "cutType": {
+          "lastValue": "STEPPED_END"
+        }
+      }
+    }
+  }
+}

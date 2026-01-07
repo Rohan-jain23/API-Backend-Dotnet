@@ -1,0 +1,16 @@
+﻿{
+  "data": {
+    "physicalAssetsCreateRefurbishingAniloxOperation": {
+      "createdRefurbishingAniloxOperationResult": {
+        "operationType": "REFURBISHING_ANILOX",
+        "equipmentPhysicalAssetMappingId": "65b3693056068ff18b8d1a7f",
+        "physicalAssetId": "65577c04e51181aa1bdcc90f",
+        "startDateTime": "2024-02-01T12:30:00.000Z",
+        "endDateTime": "2024-02-01T12:30:00.000Z",
+        "operatorUserId": "test-user-id",
+        "note": null
+      },
+      "errors": null
+    }
+  }
+}

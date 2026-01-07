@@ -1,0 +1,72 @@
+﻿{
+  "data": {
+    "materialLots": {
+      "items": [
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND5001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND6001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND7001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND8001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND9001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND10001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND11001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND12001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND13001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        },
+        {
+          "startTime": "2023-01-14T05:00:00.000Z",
+          "materialLotId": "WIND14001",
+          "machineId": "EQ00001",
+          "endTime": "2023-01-15T05:00:00.000Z"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": true
+      }
+    }
+  }
+}

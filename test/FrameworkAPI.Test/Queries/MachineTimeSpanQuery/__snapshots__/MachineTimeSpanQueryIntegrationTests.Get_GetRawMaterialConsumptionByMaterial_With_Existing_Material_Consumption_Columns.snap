@@ -1,0 +1,30 @@
+﻿{
+  "data": {
+    "machineTimeSpan": {
+      "__typename": "ExtrusionMachineTimeSpan",
+      "rawMaterialConsumptionByMaterial": [
+        {
+          "key": "ArbitraryMaterialName3",
+          "value": {
+            "unit": "kg",
+            "value": 2000
+          }
+        },
+        {
+          "key": "ArbitraryMaterialName2",
+          "value": {
+            "unit": "kg",
+            "value": 500
+          }
+        },
+        {
+          "key": "ArbitraryMaterialName1",
+          "value": {
+            "unit": "kg",
+            "value": 100
+          }
+        }
+      ]
+    }
+  }
+}

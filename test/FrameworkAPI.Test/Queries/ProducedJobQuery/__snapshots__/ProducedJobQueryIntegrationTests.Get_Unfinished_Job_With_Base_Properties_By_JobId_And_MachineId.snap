@@ -1,0 +1,13 @@
+﻿{
+  "data": {
+    "producedJob": {
+      "machineId": "EQ12345",
+      "jobId": "FakeJobId",
+      "endTime": null,
+      "isActive": true,
+      "startTime": "1970-01-01T00:00:00.000Z",
+      "productId": "FakeProductId",
+      "uniqueId": "EQ12345_FakeJobId"
+    }
+  }
+}

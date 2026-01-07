@@ -1,0 +1,20 @@
+query GenerateRawMaterialConsumptionByTimeSpan($from: DateTime!, $to: DateTime!, $machineId: String!)
+{
+    machineTimeSpan(from: $from, machineId: $machineId, to: $to)
+    {
+        ... on ExtrusionMachineTimeSpan
+        {
+            __typename
+            rawMaterialConsumptionByMaterial
+            {
+                key
+                value
+                {
+                    unit
+                    value
+                }
+            }
+
+        }
+    }
+}

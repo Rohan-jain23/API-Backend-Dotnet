@@ -1,0 +1,22 @@
+﻿{
+  "errors": [
+    {
+      "message": "Unexpected Execution Error",
+      "locations": [
+        {
+          "line": 4,
+          "column": 21
+        }
+      ],
+      "path": [
+        "machine",
+        "activeMachineAlarms"
+      ]
+    }
+  ],
+  "data": {
+    "machine": {
+      "activeMachineAlarms": null
+    }
+  }
+}

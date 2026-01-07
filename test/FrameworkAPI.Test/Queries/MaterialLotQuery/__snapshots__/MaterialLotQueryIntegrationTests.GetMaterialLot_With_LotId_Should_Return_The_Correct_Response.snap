@@ -1,0 +1,10 @@
+﻿{
+  "data": {
+    "materialLot": {
+      "endTime": "2023-01-15T05:00:00.000Z",
+      "machineId": "EQ00001",
+      "materialLotId": "WIND001",
+      "startTime": "2023-01-14T05:00:00.000Z"
+    }
+  }
+}

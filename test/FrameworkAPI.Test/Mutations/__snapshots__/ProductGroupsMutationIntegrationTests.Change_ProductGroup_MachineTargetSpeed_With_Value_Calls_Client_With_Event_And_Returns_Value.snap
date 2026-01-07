@@ -1,0 +1,18 @@
+﻿{
+  "data": {
+    "productGroupChangeMachineTargetSpeed": {
+      "changedProductGroup": {
+        "targetSpeedSettingPerMachine": [
+          {
+            "key": "EQ10101",
+            "value": {
+              "value": 2321.4,
+              "unit": null
+            }
+          }
+        ]
+      },
+      "errors": null
+    }
+  }
+}

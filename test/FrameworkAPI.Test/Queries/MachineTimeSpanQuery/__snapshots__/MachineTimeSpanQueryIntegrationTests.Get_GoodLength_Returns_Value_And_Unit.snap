@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "machineTimeSpan": {
+      "__typename": "ExtrusionMachineTimeSpan",
+      "goodLength": {
+        "unit": "FakeUnit_Extrusion.ProducedLength.GoodProduction",
+        "value": 11.1
+      }
+    }
+  }
+}
